@@ -142,7 +142,7 @@ The pattern itself can contain fairly fine features, so the printer's XY resolut
 
 * `branch_dome.scad` — OpenSCAD source
 * `branch_dome.svg` — source artwork used for the example
-* `stl/branch_dome.stl` — example printable model
+* `stl/image_dome.stl` — example printable model
 * `stl/n_image_dome.stl` — example printable model
 
 
