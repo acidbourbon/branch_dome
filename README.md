@@ -6,9 +6,9 @@ The idea is simple: put a bright point-like light source in the center of a holl
 
 The geometry is generated from an SVG file using [OpenSCAD](https://openscad.org/).
 
-![Example lamp](example1.jpg)
+![Example lamp](images/example1.jpg)
 
-![Example lamp](example2.jpg)
+![Example lamp](images/example2.jpg)
 
 ## How it works
 
@@ -25,15 +25,15 @@ The following OpenSCAD screenshots illustrate the two approaches:
 
 ### `image_dome()`
 
-![image\_dome](image_dome.png)
+![image\_dome](images/image_dome.png)
 
 ### `n_image_dome()`
 
-![n\_image\_dome](n_image_dome.png)
+![n\_image\_dome](images/n_image_dome.png)
 
 The SVG is effectively extruded into a cone-shaped volume before it is applied to the spherical shell:
 
-![Projection geometry](projection1.png)
+![Projection geometry](images/projection1.png)
 
 Because the geometry is generated from the center of the dome, the pattern is projected naturally onto the wall when the light source is placed approximately at that same point.
 
@@ -124,7 +124,7 @@ The lamp is designed around a small, bright LED positioned approximately at the 
 
 The example uses a **3 W LED chip (XPE/XPE2 type) mounted on an aluminum heatsink**.
 
-![3 W LED](LED_chip.jpg)
+![3 W LED](images/LED_chip.jpg)
 
 A 3 W LED produces considerably more heat than a typical indicator LED. It therefore needs an appropriate heatsink and a suitable constant-current driver. Do not operate a high-power LED without adequate thermal management.
 
@@ -141,13 +141,9 @@ The pattern itself can contain fairly fine features, so the printer's XY resolut
 ## Files
 
 * `branch_dome.scad` — OpenSCAD source
-* `branch_dome.svg` — example SVG pattern
-* `branch_dome.stl` — example printable model
 * `branch_dome.svg` — source artwork used for the example
-* `example1.jpg`, `example2.jpg` — photographs of the finished lamp
-* `image_dome.png`, `n_image_dome.png` — OpenSCAD previews
-* `projection1.png` — illustration of the projection geometry
-* `LED_chip.jpg` — example LED
+* `stl/branch_dome.stl` — example printable model
+* `stl/n_image_dome.stl` — example printable model
 
 
 ## Have fun with it!
