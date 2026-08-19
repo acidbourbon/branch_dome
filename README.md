@@ -34,4 +34,4 @@
 
 - the light is a 3W LED chip light on an aluminum heat sink (Type XPE/XPE2) from AliExpress
 
-![](LED_chip.jgp)
+![](LED_chip.jpg)
