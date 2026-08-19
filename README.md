@@ -7,6 +7,15 @@
 - the subtraction is coded in OpenSCAD (see .scad script)
 - try it with your own SVG graphics
 
+
+# examples
+
+- examples of a lamp made with the n_image_dome() function
+
+![](example1.jpg)
+
+![](example2.jpg)
+
 # screenshots from OpenSCAD
 
 - image_dome() function
@@ -21,11 +30,8 @@
 
 ![](projection1.png)
 
-# examples
+# LED light
 
-- examples of a lamp made with the n_image_dome() function
+- the light is a 3W LED chip light on an aluminum heat sink (Type XPE/XPE2) from AliExpress
 
-![](example1.jpg)
-
-![](example2.jpg)
-
+![](LED_chip.jgp)
