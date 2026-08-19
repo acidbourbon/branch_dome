@@ -94,13 +94,8 @@ This provides a convenient place to mount or support the dome and to position th
 
 ## Choosing the pattern orientation
 
-At the end of the OpenSCAD file, the modules can be enabled or disabled to select what is rendered:
+At the end of the OpenSCAD file, the modules can be enabled or disabled to select what is rendered.
 
-```scad
-//image_dome();
-//dome_base(15);
-n_image_dome();
-```
 
 For example, to create the cut-out version, use:
 
