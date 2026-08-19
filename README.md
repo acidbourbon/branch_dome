@@ -10,15 +10,22 @@
 # screenshots from OpenSCAD
 
 - image_dome() function
+
 ![](image_dome.png)
+
 - n_image_dome() function (the inverse)
+
 ![](n_image_dome.png)
 
 - the SVG image is extruded into a cone shape and then subtracted from the dome
+
 ![](projection1.png)
 
 # examples
+
 - examples of a lamp made with the n_image_dome() function
+
 ![](example1.jpg)
+
 ![](example2.jpg)
 
