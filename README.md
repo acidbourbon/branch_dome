@@ -8,6 +8,8 @@ The geometry is generated from an SVG file using [OpenSCAD](https://openscad.org
 
 ![Example lamp](example1.jpg)
 
+![Example lamp](example2.jpg)
+
 ## How it works
 
 The dome is modeled as a thin hemispherical shell. The SVG pattern is interpreted as a set of rays originating from the center of the dome.
